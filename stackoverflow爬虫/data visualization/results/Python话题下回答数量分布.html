@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/vintage.js"></script>
+
+</head>
+<body>
+    <div id="f57743e7a567427898de2fe101ac0631" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_f57743e7a567427898de2fe101ac0631 = echarts.init(
+            document.getElementById('f57743e7a567427898de2fe101ac0631'), 'vintage', {renderer: 'canvas'});
+        var option_f57743e7a567427898de2fe101ac0631 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u65e0\u56de\u7b54",
+                    "value": 11079
+                },
+                {
+                    "name": "1-2",
+                    "value": 28801
+                },
+                {
+                    "name": "2-4",
+                    "value": 3252
+                },
+                {
+                    "name": "4-6",
+                    "value": 339
+                },
+                {
+                    "name": "6-8",
+                    "value": 48
+                },
+                {
+                    "name": "8-10",
+                    "value": 3
+                },
+                {
+                    "name": "10\u4ee5\u4e0a",
+                    "value": 0
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "25%",
+                "50%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u65e0\u56de\u7b54",
+                "1-2",
+                "2-4",
+                "4-6",
+                "6-8",
+                "8-10",
+                "10\u4ee5\u4e0a"
+            ],
+            "selected": {},
+            "show": true,
+            "left": "50%",
+            "top": "5%",
+            "orient": "vertical"
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Python\u8bdd\u9898\u4e0b\u56de\u7b54\u6570\u91cf\u5206\u5e03",
+            "left": "center"
+        }
+    ]
+};
+        chart_f57743e7a567427898de2fe101ac0631.setOption(option_f57743e7a567427898de2fe101ac0631);
+    </script>
+</body>
+</html>
