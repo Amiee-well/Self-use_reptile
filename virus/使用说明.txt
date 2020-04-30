@@ -1,0 +1,8 @@
+不打包直接运行
+pip install -r requests.txt -i https://pypi.douban.com/simple
+第三方库安装之后运行virus.py即可
+
+想做成exe文件。spec我做完了。
+pip install pyinstaller -i https://pypi.douban.com/simple
+下载第三方打包库之后，命令行运行 pyinstaller virus.spec即可
+生成dict文件下包含单独exe文件。运行即可
